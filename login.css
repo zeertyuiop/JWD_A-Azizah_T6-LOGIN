@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(229, 185, 185);
+}
+header {
+    background-color: rgb(178, 123, 123);
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+.btn-nav{
+    display: block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(90, 238, 147);
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-nav:hover{
+    background-color: brown;
+    color: white;
+}
+
+main{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+label, input{
+    display: block;
+    
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+button{
+    padding: 5px 8px;
+}
+.error-message{
+    color: white;
+    background-color: rgb(239, 80, 80);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.success-message{
+    color: white;
+    background-color: rgb(90, 238, 147);
+    padding: 5px;
+    margin-bottom: 5px;
+}
